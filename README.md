@@ -39,13 +39,3 @@
 | `cb_investments.csv` | Информация о компаниях и состоявшемся финансировании: название, категории, рынок, общий объём инвестиций, статус, страна, регион, город, число раундов и участников, даты основания и финансирования, суммы по типам финансирования (seed, venture, angel, grant, debt_financing и др.) и раундам A–H. |
 | `cb_returns.csv` | Объёмы возвратов по годам и типам финансирования (в млн долларов США). |
 
-Загрузка данных:
-
-```python
-import pandas as pd
-
-investments = pd.read_csv(
-    "https://code.s3.yandex.net/datasets/cb_investments.zip",
-    sep=';',
-    low_memory=False
-)
