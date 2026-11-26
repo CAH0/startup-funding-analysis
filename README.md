@@ -128,5 +128,5 @@ startup-funding-analysis/
 │   ├── cb_investments.csv
 │   └── cb_returns.csv
 ├── startup_funding_analysis.ipynb
-├── README.md
-└── ANALYSIS.md   ← этот файл
+└── README.md
+
